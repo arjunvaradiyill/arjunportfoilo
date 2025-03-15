@@ -151,6 +151,21 @@ header {
         order: -1; /* Move image above text on smaller screens */
     }
 }
+.resume-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background-color: #0056b3;
+}
 
 
 /* About Section */
